@@ -1,0 +1,25 @@
+
+
+.sidebar-header{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.sidebar-bottom{
+    
+    
+    & button {
+        font-size: 20px;
+        background-color: var(--secondary-color);
+        display: flex;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    & img{
+        border-radius: 4px;
+    }
+}

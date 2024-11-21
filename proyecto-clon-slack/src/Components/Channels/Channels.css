@@ -1,0 +1,42 @@
+button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;   
+        font-size: 16px;
+        background-color: var(--third-color);
+        border: none;
+}
+
+.channels-header{
+    display: flex;
+    justify-content: space-between;
+
+    & div {
+        display: flex;
+        justify-content: end;
+    }
+    .channels-header-btn{
+        margin-left: 16px;
+        font-size: 19px;
+        color: var(--text-color-secondary);
+    } 
+    & button{
+        font-weight: 900;            
+    }
+}
+.channels-list{
+    
+    padding: 10px 0px;
+    & span {
+        color: var(--text-color-secondary);
+        margin-left: 8px;
+    }
+    & div{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 5px 0px;
+    }
+    
+    
+}
