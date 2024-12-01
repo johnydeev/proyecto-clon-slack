@@ -7,8 +7,7 @@ import { TfiLayoutMenuSeparated } from "react-icons/tfi";
 import { BsPlusLg } from "react-icons/bs";
 import './Sidebar.css'
 const SideBar = () => {
-    const workspace_contex_values = useContext(WorkspaceContext)
-    console.log(workspace_contex_values)
+    console.log(useContext(WorkspaceContext))
     
     return (
       <>
@@ -41,20 +40,17 @@ const SideBar = () => {
             <span>Mas</span>
           </div>
         </div>
-        <div className="sidebar-bottom">
-            
-                <button>
-                    <BsPlusLg />
-                </button>
-
-            
+        <div className="sidebar-btn">            
+          <button>
+            <BsPlusLg />
+          </button>    
           
-            <img
-              width={40}
-              height={40}
-              src="https://ca.slack-edge.com/T07EJ2FLZ2R-U07ELA3CFQW-999ac5bd03d4-48"
-              alt="avatar castro jonathan"
-            />
+          <img
+            width={40}
+            height={40}
+            src="https://ca.slack-edge.com/T07EJ2FLZ2R-U07ELA3CFQW-999ac5bd03d4-48"
+            alt="avatar castro jonathan"
+          />
           
         </div>
       </>

@@ -1,14 +1,13 @@
 
 
 .sidebar-header{
-    /* display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column; */
+    flex-direction: column;
 }
 
-.sidebar-bottom{
-    
+.sidebar-btn{  
     
     & button {
         font-size: 20px;
