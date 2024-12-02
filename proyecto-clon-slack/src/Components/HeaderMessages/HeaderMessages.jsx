@@ -1,4 +1,3 @@
-import React from 'react'
 import './HeaderMessages.css'
 const HeaderMessages = () => {
   return (

@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 import { WorkspaceContext } from '../../Context/WorkspaceContext'
 import { AiFillHome } from "react-icons/ai";
 import { PiChatsCircleBold } from "react-icons/pi";

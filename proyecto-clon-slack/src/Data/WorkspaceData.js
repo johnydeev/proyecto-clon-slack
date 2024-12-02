@@ -1,79 +1,149 @@
 const workspaces = [
   {
+    id: 1,
     img: "",
     title: "UTN PWA TN",
-    miembros: [],
-    id: 1,
-    messages: [
+    members: [
+      {
+        id: 1,
+        avatar: "",
+        name: "Matias Gimenez",
+      },
+      {
+        id: 2,
+        avatar: "",
+        name: "Enuel Monzón",
+      },
+      {
+        id: 3,
+        avatar: "",
+        name: "Luciano Leone",
+      },
+      {
+        id: 4,
+        avatar: "",
+        name: "Jonathan Castro",
+      },
+    ],
+    channels: [
+      {
+        id: 1,
+        name: "general",
+        messages: [],
+      },
+      {
+        id: 2,
+        name: "presentacion",
+        messages: [],
+      },
+      {
+        id: 3,
+        name: "tareas",
+        messages: [],
+      },
+      {
+        id: 4,
+        name: "tareas-no-escribir",
+        messages: [],
+      },
+      {
+        id: 5,
+        name: "utilidades",
+        messages: [],
+      },
+      {
+        id: 6,
+        name: "varios",
+        messages: [],
+      },
+    ],
+    direct_messages: [
       {
         hora: "22:10",
         id: 1,
-        texto: "Hola a todos",
-        autor: "mati",
+        texto: "Hola que tal??",
+        autor: "Matias Gimenez",
       },
       {
         hora: "22:11",
         id: 2,
-        texto: "Que tal?",
-        autor: "pepe",
+        texto: "Buenas mati todo bien vos?",
+        autor: "Jonathan Castro",
       },
       {
         hora: "22:12",
         id: 3,
         texto: "Hoy sale estudiar 🤓?!",
-        autor: "maria",
+        autor: "Matias Gimenez",
+      },
+    ],
+    apps: [
+      {
+        id: 1,
+        avatar: "",
+        name: "Slackbot",
+      },
+      {
+        id: 2,
+        avatar: "",
+        name: "Trello",
+      },
+      {
+        id: 3,
+        avatar: "",
+        name: "Zoom",
       },
     ],
   },
   {
+    id: 2,
     img: "",
     title: "UTN PWA TM",
     miembros: [],
-    id: 2,
     messages: [
       {
         hora: "22:10",
         id: 1,
         texto: "Hola a todos",
-        autor: "mati",
+        autor: "Matias Gimenez",
       },
       {
         hora: "22:11",
         id: 2,
         texto: "Que tal?",
-        autor: "pepe",
+        autor: "Enuel Monzón",
       },
       {
         hora: "22:12",
         id: 3,
         texto: "Hoy sale estudiar 🤓?!",
-        autor: "maria",
+        autor: "Luciano Leone",
       },
     ],
   },
   {
+    id: 3,
     img: "",
     title: "UTN Fiesta",
     miembros: [],
-    id: 3,
     messages: [
       {
         hora: "22:10",
         id: 1,
         texto: "Hola a todos",
-        autor: "mati",
+        autor: "Matias Gimenez",
       },
       {
         hora: "22:11",
         id: 2,
         texto: "Que tal?",
-        autor: "pepe",
+        autor: "Enuel Monzón",
       },
       {
         hora: "22:12",
         id: 3,
         texto: "Hoy sale estudiar 🤓?!",
-        autor: "maria",
+        autor: "Luciano Leone",
       },
     ],
   },

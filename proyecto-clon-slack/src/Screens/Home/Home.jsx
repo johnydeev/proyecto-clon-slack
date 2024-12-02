@@ -1,4 +1,3 @@
-// import { useParams } from "react-router-dom";
 import BoxMessages from "../../Components/BoxMessages/BoxMessages";
 import Channels from "../../Components/Channels/Channels";
 import HeaderMessages from "../../Components/HeaderMessages/HeaderMessages";
@@ -7,7 +6,7 @@ import SideBar from "../../Components/SideBar/SideBar";
 import './Home.css'
 
 const Home = () => {
-  // const workspace_id = useParams()
+  
   return (
     <div className="home">
       <div className="navbar">
